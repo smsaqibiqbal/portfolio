@@ -1,0 +1,373 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main{
+ width: 100%;
+ height: 90vh;
+ background-color: rgb(196, 134, 146);
+ background-position: ;
+ background-size: cover;
+    
+}
+.logo{
+    color: darkcyan;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span{
+    color: crimson;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav ul li a{
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+ 
+}
+nav ul li a:hover{
+    color: crimson;
+    transition: transform .4s;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.btn{
+    background-color: crimson;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: ;
+    margin: 20px 0px 20px;
+    font-size: 4.5em;
+}
+h3{
+    color: ;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+
+
+}
+h4{
+    color: ;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+.nlttr form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.nlttr form input:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid crimson;
+    outline: none;
+    border-radius: 30px;
+}
+.nlttr form input:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    border: none;
+    outline: none;
+    padding: 14px 31px;
+    border-radius: 33px;
+    background-color: darkcyan;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+    display: inline-flex;
+
+}
+.abttxt{ width: 550px;}
+.abtimg{
+    align-content: flex-start;
+    width: 15rem;
+}
+    
+
+.abt{
+    width: 730px;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+.abttxt h2{
+    color: white;
+    font-size: 4.5em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abttxt h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.abttxt p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 20px lid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+
+
+}
+.title h2{
+    color:  #ffffff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 365px;
+    width: 355px;
+    padding: 20px 35px;
+    background: #1919119;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: crimson;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .buton{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 20px lid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .buton:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+    cursor: pointer;   
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .butontwo{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact .butontwo:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+    cursor: pointer;  
+}
+.card:hover{
+    transform: scale(1.16);
+}
+.ourteam{
+ width: 100%;
+ height: 90vh;
+ background-color: rgb(255, 146, 146);
+ background-position: center;
+ background-size: cover;
+    
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .row{
+    width: 100%;
+ height: 70vh;
+ background-color: crimson;
+ background-position: center;
+ background-size: cover;
+ margin-bottom: 5rem;
+  }
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .cntcontainer {
+    border-radius: 5px;
+    background-color: crimson;
+    padding: 20px;
+  }
+  .imgtp{
+    border-radius: 3.2rem;
+  }
